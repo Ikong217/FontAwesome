@@ -1,5 +1,5 @@
 <?php
-namespace App\Enums;
+namespace IkongDev\FontAwesome;
 
 use Filament\Support\Enums\IconSize;
 
