@@ -53,6 +53,8 @@ If you package this up yourself, once installed the enum autoloads from the vend
 
 ### Option 1: install via composer
 
+Install the package and owenvoke/blade-fontawesome is already attached
+
 ```bash
 composer require ikongdev/font-awesome
 ```
@@ -66,6 +68,7 @@ You can Download the enum file located inside source(src) folder
 #### Step 2: Change the namespace
 
 after downloading, it is recommended for you to put the file inside App\Enums\ folder
+[click to redirect to the file](https://github.com/Ikong217/FontAwesome/blob/feature/add-composer-to-to-make-a-package/src/FontAwesome.php)
 change the namespace using:
 
 ```
