@@ -21,7 +21,7 @@ Filament ships with Heroicons out of the box, which is great — but limited. `o
 
 ## Installation
 
-Install the underlying Font Awesome Blade Icons package:
+<!-- Install the underlying Font Awesome Blade Icons package:
 
 ```bash
 composer require owenvoke/blade-fontawesome
@@ -49,7 +49,41 @@ namespace App\Support\Icons;
 
 ### Option 3: Install as a Composer package
 
-If you package this up yourself, once installed the enum autoloads from the vendor namespace and is ready to use immediately.
+If you package this up yourself, once installed the enum autoloads from the vendor namespace and is ready to use immediately. -->
+
+### Option 1: install via composer
+
+Install the package and owenvoke/blade-fontawesome is already attached
+
+```bash
+composer require ikongdev/font-awesome
+```
+
+### Option 2: Create Your Own Enum
+
+#### Step 1: Donwload the file
+
+You can Download the enum file located inside source(src) folder
+
+#### Step 2: Change the namespace
+
+after downloading, it is recommended for you to put the file inside App\Enums\ folder
+[click to redirect to the file](https://github.com/Ikong217/FontAwesome/blob/feature/add-composer-to-to-make-a-package/src/FontAwesome.php)
+change the namespace using:
+
+```
+namespace App\Enums;
+```
+
+or which folder it is located on your project
+
+#### Step 3: Install dependency
+
+You must install the depenency ovenvoke/blade-fontawesome to make it work.
+
+```bash
+composer require owenvoke/blade-fontawesome
+```
 
 ## Usage
 

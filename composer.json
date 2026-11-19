@@ -1,0 +1,23 @@
+{
+  "name": "ikongdev/font-awesome",
+  "description": "Using FontAwesome Enum in Filament",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ikongdev\\FontAwesome\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jericho Umayam",
+      "email": "jerichoumayam473@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2",
+    "filament/support": "^3.0|^4.0|^5.0",
+    "owenvoke/blade-fontawesome": "^2.0|^3.0"
+  }
+}
